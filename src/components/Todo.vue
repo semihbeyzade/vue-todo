@@ -2,7 +2,7 @@
   <div >
     <h1>{{ message }}</h1>
     <h1>{{ count }}</h1>
-    <button v-on:click="countUp">Hochzählen</button>
+    <button @click="countUp">Hochzählen</button>
   </div>
 </template>
 
